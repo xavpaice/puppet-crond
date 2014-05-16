@@ -1,0 +1,7 @@
+# /etc/cron.d/<%= @name %>
+
+SHELL=<%= @shell %>
+PATH=<%= @cmdpath %>
+
+<%= @minute %> <%= @hour %> <%= @day %> <%= @month %> <%= @weekday %> <%= @user %> <%= @command %>
+
